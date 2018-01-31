@@ -171,30 +171,20 @@ export default {
           wp: '1.1',
           naam: 'Stelt de opdracht vast',
           keyword: 'Voorbereiding',
-          beschrijving: `Voor deze opdracht ga je samen met jouw opdrachtgever (in de meeste gevallen jouw stagebegeleider, of een andere medewerker) komen tot een technische opdracht om later uit te voeren. Om tot een duidelijke afbakening van de opdracht te komen ga je overleggen met jouw opdrachtgever. Je maakt daarbij notities en/of schetsen, stelt inhoudelijke vragen ter verduidelijking van de opdracht en laat zien dat je meedenkt aan de opdracht door tijdens het gesprek aanvullingen te geven of ideeën op te gooien.
+          beschrijving: `Voor deze opdracht ga je komen tot een opdracht om binnen het CodeLab uit te voeren. Om tot een duidelijke afbakening van de opdracht te komen ga je overleggen met een begeleider. Je maakt daarbij notities en/of schetsen, stelt inhoudelijke vragen ter verduidelijking van de opdracht en laat zien dat je meedenkt aan de opdracht door tijdens het gesprek aanvullingen te geven of ideeën op te gooien. Ook ga je zelfstandig op informatie-onderzoek uit naar de te maken opdracht
                         `,
-          resultaat: `Het resultaat is een door de opdrachtgever goedgekeurde opdracht waarin de beschikbare
-                      informatie en de eisen en behoeften van de opdrachtgever zijn verwerkt. Voor het vaststellen
+          resultaat: `Het resultaat is een door de CodeLab begeleider goedgekeurde opdracht waarin de beschikbare
+                      informatie is verwerkt. Voor het vaststellen
                       van de opdracht is gebruik gemaakt van de <a href="https://nl.wikipedia.org/wiki/MoSCoW-methode"> MoSCoW-methode</a>`,
           docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_1.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
-              'document': 'Gespreksverslag',
+              'document': 'Onderzoeksrapport',
               'beschrijving': `
-               Een gedetailleerd gespreksverslag waarin de volgende punten worden beschreven:
-               <ul>
-                 <li> tijdstip gesprek </li>
-                 <li> betrokkenen </li>
-                 <li> locatie </li>
-                 <li> een verslag over de gemaakte voorbereiding voor dit gesprek. </li>
-                 <li> een verslag over het daadwerkelijk gehouden gesprek. (welke punten zijn er besproken?
-                   waar heb je op doorgevraagd? welke suggesties heb je zelf aangedragen? ) </li>
-                 <li> reflectie op het gehouden gesprek. (Als je de volgende keer nog eens zo'n interview moet houden,
-                 wat ga je dan anders aanpakken? Welke vragen heb je uiteindelijk niet meer gesteld, en waarom niet?
-                 Ging het gesprek zoals je dacht dat het zou verlopen, of liep het uiteindelijk helemaal anders? Wat zou je
-                 de volgende keer anders doen in de voorbereiding van zo'n gesprek? ) </li>
-              </ul>
+               Een verslag over wat je hebt gedaan om voorbereid aan de opdracht te beginnen. Met wie heb je gesproken? Wat heb je op het internet gezocht?
+               Welke tutorials heb je gevolgd, welke artikelen heb je gelezen? Heb je eerst een kleine omgeving opgezet en getest? hoe heb je dat aangepakt?
+               Met welke programma's ga je werken en waarom?
               `
             },
             {
@@ -203,9 +193,9 @@ export default {
               'beschrijving': `
                 Het <a href="https://www.computable.nl/artikel/opinie/ict-branche/5718571/1509029/programma-van-eisen-kent-enkele-basisprincipes.html"> programma van eisen </a>
                 is een overzicht van wat de functionaliteiten binnen de applicatie zijn. Dit is vaak een 'officieel' document
-                waar een opdrachtgever van te voren voor tekent. Dit zijn de afspraken die je met de opdrachtgever hebt gemaakt over
+                waar een opdrachtgever van te voren voor tekent. Dit zijn de afspraken die je met de opdrachtgever (in dit geval je CodeLab begeleider) hebt gemaakt over
                 de functionaliteiten van de applicatie.  Handig is om hierbij gebruik te maken van de <a href="https://nl.wikipedia.org/wiki/MoSCoW-methode"> MoSCoW-methode</a>.
-                Wees in het programma van eisen heel duidelijk in het beschrijven van de functionaliteiten. wie moet wat kunnen doen in het systeem?
+                Wees in het programma van eisen heel duidelijk in het beschrijven van de functionaliteiten. Bijvoorbeeld wie moet wat wel of niet kunnen doen in het systeem?
               `
             }
           ]
@@ -214,40 +204,31 @@ export default {
           kt: 1,
           wp: '1.2',
           naam: 'Levert een bijdrage aan het projectplan',
-          beschrijving: `Je gaat op basis van een gekregen (deel)opdracht de werkzaamheden inventariseren
+          beschrijving: `Je gaat op basis van jouw opdracht de werkzaamheden inventariseren
                         die hierbij horen. Je beschrijft de activiteiten die bij deze opdracht komen kijken
                         en geeft daarbij een zo realistisch mogelijke schatting aan van de duur van deze activiteiten.
                        `,
-          resultaat: `Een realistische planning volgens de werkwijze van het stagebedrijf (planningstool zoals Asana,
-                      of Microsoft Project) die waar nodig wordt bijgesteld.
+          resultaat: `Een realistische planning  gebruikmakend van een planningstool zoals Asana,
+                      of Microsoft Project, die waar nodig wordt bijgesteld.
                      `,
           docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_1.2.docx?raw=true',
-          oplevering: [
-            {
-              'clicked': false,
-              'document': 'Verantwoording planning',
-              'beschrijving': `Beschrijf in eigen woorden (half a4) hoe er binnen het team wordt omgegaan met de planning rondom
-              een project. Wat voor planningstool wordt er gebruikt, en waarom? Wie wijst taken toe?
-              wie bepaalt het tijdspad? Hoe wordt bepaald hoe lang een bepaalde taak gaat duren?`
-            },
-            {
-              'clicked': false,
-              'document': `Activiteiten planning`,
-              'beschrijving': `Maak van de taken die je hebt toegewezen gekregen in een planningstool
-              (liefst die op jouw stage wordt gebruikt), een onderverdeling in subtaken. Geef hierbij per subtaak aan:
-              <ul>
-                <li> titel</li>
-                <li> omschrijving </li>
-                <li> prioriteit </li>
-                <li> opvolging </li>
-                <li> geschatte tijdsduur</li>
-              </ul>
-              Maak screenshots van de gemaakte projectplanning en geef daar waar nodig uitleg bij de gemaakte screenshots.
-              `
+          oplevering:
+          {
+            'clicked': false,
+            'document': `Activiteiten planning`,
+            'beschrijving': `Maak van de opdracht die je gaat doen een onderverdeling in minimaal 10 (sub)taken. Geef hierbij per item aan:
+            <ul>
+              <li> titel</li>
+              <li> omschrijving </li>
+              <li> prioriteit </li>
+              <li> opvolging </li>
+              <li> geschatte tijdsduur</li>
+            </ul>
+            Maak screenshots van de gemaakte projectplanning en geef daar waar nodig uitleg bij de gemaakte screenshots.
+            `
 
-            }
+          }
 
-          ]
         },
         {
           kt: 1,
@@ -314,7 +295,7 @@ export default {
           kt: 1,
           wp: '1.4',
           naam: 'Bereidt de realisatie voor',
-          beschrijving: `Je gaat op basis van een gekregen (deel)opdracht na wat je als ontwikkelomgeving
+          beschrijving: `Je gaat op basis van één van jouw CodeLab projecten na wat je als ontwikkelomgeving
                         nodig denkt te hebben en maak hiervan documentatie. Is het bijvoorbeeld
                         in een wordpress omgeving, geef dan evt aan welke wordpress versie, welke starters thema er gebruikt
                         wordt en welke plugins gebruikt gaan worden. Wordt er gebruik gemaakt van front-end- en/of
@@ -325,7 +306,7 @@ export default {
                         een videobewerker. Welke minimale systeemeisen heb je nodig voor de opdracht? Hoe zit het
                         met versiebeheer? ga je een git repository maken? heb je al plannen voor deployment?
                         op welke server gaat de applicatie draaien en wat zijn daar de configuraties van?`,
-          resultaat: `Een handleiding voor jezelf en/of eventuele collega's waarin de benodigdheden
+          resultaat: `Een handleiding voor jezelf en/of eventuele groepsgenoten waarin de benodigdheden
                       voor het bouwen van de applicatie staan gedocumenteerd. Het document is zodanig opgebouwd
                       dat een collega in korte tijd dezelfde ontwikkelomgeving klaar heeft staan, inclusief
                       de juiste configuraties. De vorm hiervan is een word-document zijn of een readme.md bestand waarin
@@ -333,16 +314,6 @@ export default {
                       handigheidjes die je eventueel al kent, zoals bijvoorbeeld een goed ingerichte package.json bestand.`,
           docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_1.4.docx?raw=true',
           oplevering: [
-            {
-              'clicked': false,
-              'document': 'Ontwikkelomgeving op stage',
-              'beschrijving':
-              `
-                Beschrijf (in een half a4tje) wat je allemaal hebt moeten installeren en moeten configureren om bij jouw
-                stageplaats optimaal aan de slag te kunnen gaan met ontwikkeling. Welke online accounts heb je moeten aanmaken,
-                welke software heb je moeten installeren? Wellicht maakt je stage gebruik van containerization zoals docker?
-              `
-            },
             {
               'clicked': false,
               'document': 'Development requirements',
