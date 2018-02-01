@@ -3,33 +3,20 @@
     <h1> Downloads </h1>
     <h3> Algemeen </h3>
     <nav class="panel">
-      <a download target="_blank" href="https://radiuscollege.nl/upload/documenten/17/Handboek%20BPV%202017-2018.pdf" class="panel-block">
-        <span class="panel-icon">
-          <i class="fa fa-book"> </i>
-        </span>
-        Algemene BPV Handleiding
-      </a>
-       <a download target="_blank" href="https://radiuscollege.nl/upload/documenten/17/NEW%20Invulbaar%20Melding%20BPV.pdf" class="panel-block">
-        <span class="panel-icon">
-          <i class="fa fa-book"> </i>
-        </span>
-        Meldingsformulier BPV
-      </a>
+        <a href="https://currapp.amo.rocks/files/18" class="panel-block">
+            <span class="panel-icon">
+                <i class="fa fa-book"> </i>
+            </span>
+            Opdrachten Catalogus
+        </a>
     </nav>
     <h3> Voortgang/Beoordeling </h3>
     <nav class="panel">
-     <a href="https://github.com/Radiuscollege/stage/blob/master/docs/20180118_bpv_p7-p8_groep_achternaam_voornaam.xlsx?raw=true" class="panel-block">
+     <a href="https://currapp.amo.rocks/files/17" class="panel-block">
         <span class="panel-icon">
           <i class="fa fa-book"> </i>
         </span>
-        Voortgangsregistratie (Excel bestand) | Nog te ontwikkelen
-      </a>
-
-      <a class="panel-block" download href="https://github.com/Radiuscollege/stage/blob/master/docs/beoordeling_leerwerkhouding.xlsx?raw=true">
-          <span class="panel-icon">
-            <i class="fa fa-book"></i>
-          </span>
-          Leer-werkhoudingslijst
+        Voorbeeld Logboek
       </a>
     </nav>
     <h3>Skillkaart Templates</h3>
