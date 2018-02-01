@@ -1,8 +1,7 @@
 <template>
-  <div class="root-element content">
-
-    <div class="columns">
-        <div class="column is-two-third">
+    <div class="root-element content">
+        <div class="columns">
+            <div class="column is-two-third">
                 <img src="../assets/logo-codelab.png" alt="CodeLab Logo">
                 <h1>Welkom bij het CodeLab!</h1>
                 
@@ -33,10 +32,7 @@
                 <p>
                     De keuze is aan jou!
                 </p>
-            <p>
-                Bij iedere skillkaart kun je een korte omschrijving van de opdracht, wat voor documenten je zal moeten maken en wat het uiteindelijke resultaat is.
-            </p>
-
+                
                 <h3 id="skillkaarten">Hoe kies ik en maak ik skillkaarten?</h3>
                 <p>
                     Het makkelijkst is dat je een keer even op je gemak de skillkaarten doorleest. Wanneer je aan een project gaat werken kun je een aantal van de skillkaarten die erbij passen gebruiken om jouw werkprocessen aan te tonen. Je zal al snel merken dat veel van de werkprocessen goed om te vormen zijn naar taken die je zal moeten verrichten bij het CodeLab.
@@ -44,16 +40,63 @@
                 <p>
                     <strong>Je wordt verwacht minstens 1 skillkaart af te ronden per periode.</strong> Wanneer je tijd hebt mag je natuurlijk meer skillkaarten afronden en jezelf op deze manier beter voorbereiden voor je examen.
                 </p>
-            
-                <h3 id="leenmateriaal">Leenmateriaal</h3>
-                <h4 id="magazijn">Magazijn</h4>
                 <p>
-                    
+                    Bij iedere skillkaart kun je een korte omschrijving van de opdracht, wat voor documenten je zal moeten maken en wat het uiteindelijke resultaat is.
+                </p>
+                
+                <h3 id="leenmateriaal">Leenmateriaal</h3>
+                <h4 id="magazijn">AMO Magazijn</h4>
+                <p>
+                    <h5>Apparatuur</h5>
+                    <ul>
+                        <li>Virtual Reality PC: Oculus Rift</li>
+                        <li>Virtual Reality PC: HTC Vive</li>
+                        <li>4x Zumo Robot for Arduino</li>
+                        <li>Raspberry Pi</li>
+                        <li>2x iMac</li>
+                    </ul>
+                </p>
+                <p>
+                    <h5>Literatuur</h5>
+                    <div class="columns">
+                        <div class="column is-two-thirds">
+                            <ul>
+                                <li>Anti Patterns <em>[door: William J. Brown, Raphael C. Malveau, Hays W. "Skip" McCormick III & Thomas J. Mowbray]</em></li>
+                                <li>Basiscursus JavaScript 1.5 <em>[door: Peter Kassenaar]</em></li>
+                                <li>Basishandleiding Google in één oogopslag <em>[door: Bert van Aalten]</em></li>
+                                <li>Beginning C++ Through Game Programming (incl. CD) <em>[door: Michael Dawson]</em></li>
+                                <li>Game Architecture and Design - A new edition <em>[door: Andrew Rollings & Dave Morris]</em></li>
+                                <li>Goochelen met Google <em>[door: Dirk de Grooff]</em></li>
+                                <li>Head First C# <em>[door: Andrew Stellman & Jennifer Greene]</em></li>
+                                <li>Head First Object-Oriented Analysis & Design <em>[door: Brett D. McLaughlin, Gary Pollice & David West]</em></li>
+                                <li>HTML & CSS <em>[door: Jon Duckett]</em></li>
+                                <li>Mathematics for 3D Game Programming & Computer Graphics <em>[door: Eric Lengyel]</em></li>
+                                <li>PHP 5 <em>[door: Ward van der Put]</em></li>
+                                <li>Step by step Access 2 NL/Windows <em>[door: Kluwer Bedrijfswetenschappen]</em></li>
+                                <li>Step by step Microsoft Visual C# 2012 <em>[door: John Sharp]</em></li>
+                                <li>Verder met internet <em>[door:	Bob van Duuren]</em></li>
+                                <li>Werken met MSDOS <em>[door: Van Wolverton]</em></li>
+                                <li>Windows XP Grand Cru - SP2 editie <em>[door: John Levine & Margaret Levine Young]</em></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <img src="https://images.unsplash.com/photo-1503365070998-37e56a2606e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8b5910ce357f43bd10b8f7558339631e&auto=format&fit=crop&w=1950&q=80" alt="Boekenmagazijn" class="image">
+                        </div>
+                    </div>
                 </p>
                 
                 <h4 id="procedure">Procedure</h4>
                 <p>
-                                    
+                    Je mag uit het magazijn producten lenen of gebruiken tijdens het CodeLab. De procedure hiervoor is als volgt:
+                </p>
+                <p>
+                    <ol>
+                        <li>Stap naar een docent en vertel wat je wilt lenen</li>
+                        <li>De docent noteert het product, jouw naam en neemt jouw <strong>schoolpas</strong> in</li>
+                        <li>Je kans tijdens CodeLab nu zelf het product gebruiken, wees er voorzichtig mee!</li>
+                        <li>Aan het einde van het CodeLab lever je het product in bij de docent</li>
+                        <li>De docent noteert dat jij het product hebt ingeleverd en geeft je <strong>schoolpas</strong> terug.</li>
+                    </ol>
                 </p>
                 
                 <h3 id="beoordeling"> Beoordeling </h3>
@@ -67,38 +110,47 @@
                 
                 <h4 id="weekrapportages"> Weekrapportages </h4>
                 <p>
-                    
+                    Van iedere CodeLab dien je een logboek bij te houden, hierin schrijf je duidelijk waar je mee aan de slag bent gegaan. Een goede manier om iets op te schrijven is bijvoorbeeld:
+                </p>
+                <p>
+                    <blockquote>"gewerkt aan mijn portfoliowebsite: de header zit nu vast aan de bovenkant van de browser en ik heb de kleuren verandert na een mooi pallet te zoeken op coolors.co"</blockquote>
+                </p>
+                <p>
+                    Met een logboekregel zoals hierboven weet jij zelf en ook de docent waar jij je mee bezig hebt gehouden. Een manier van opschrijven waar je niet veel aan hebt is:
+                </p>
+                <p>
+                    <blockquote>"gewerkt aan site"</blockquote>
                 </p>
                 
                 <h4 id="ingevuldeSkillkaarten"> Ingevulde Skillkaarten </h4>
                 <p>
                     Skillkaarten zijn (sets met) opdrachten die jou in staat stellen om te bewijzen dat je aan de slag met gegaan met de verschillende werkprocessen van jouw opleiding in de praktijk. Iedere skillkaart staat in het teken van een specifiek werkproces.
                 </p>
+            </div>
+    
+            <div class="column is-one-third">
+                <aside class="toc">
+                    <ul class="toc-list">
+                        <li> <a href="#inleiding">Wat is het CodeLab?</a> </li>
+                        <li> <a href="#opdrachten">Waar mag ik aan werken tijdens CodeLab?</a> </li>
+                        <li> <a href="#skillkaarten">Hoe kies ik en maak ik skillkaarten?</a> </li>
+                        <li> <a href="#leenmateriaal">Leenmateriaal</a>
+                            <ul>
+                              <li> <a href="#magazijn">AMO Magazijn</a> </li>
+                              <li> <a href="#procedure">Procedure</a> </li>
+                            </ul>
+                        </li>
+                        <li> <a href="#beoordeling">Beoordeling</a>
+                            <ul>
+                              <li> <a href="#weekrapportages">Weekrapportages</a> </li>
+                              <li > <a href="#ingevuldeSkillkaarten">Ingevulde Skillkaarten</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
         </div>
-
-      <div class="column is-one-third">
-            <aside class="toc">
-                <ul class="toc-list">
-                    <li> <a href="#inleiding">Wat is het CodeLab?</a> </li>
-                    <li> <a href="#opdrachten">Waar mag ik aan werken tijdens CodeLab?</a> </li>
-                    <li> <a href="#skillkaarten">Hoe kies ik en maak ik skillkaarten?</a> </li>
-                    <li> <a href="#leenmateriaal">Leenmateriaal</a>
-                        <ul>
-                          <li> <a href="#magazijn">AMO Magazijn</a> </li>
-                          <li> <a href="#procedure">Procedure</a> </li>
-                        </ul>
-                    </li>
-                    <li> <a href="#beoordeling">Beoordeling</a>
-                        <ul>
-                          <li> <a href="#weekrapportages">Weekrapportages</a> </li>
-                          <li > <a href="#ingevuldeSkillkaarten">Ingevulde Skillkaarten</a> </li>
-                        </ul>
-                    </li>
-                </ul>
-            </aside>
-      </div>
     </div>
-  </div>
 </template>
 
 <script>
