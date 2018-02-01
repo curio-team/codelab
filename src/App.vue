@@ -51,7 +51,7 @@ export default {
   }
 
   .router-link-exact-active {
-    color: #e2000f !important;
+    color: #00A5F7 !important;
   }
 
 .fade-enter-active, .fade-leave-active {

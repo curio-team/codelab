@@ -58,31 +58,24 @@
                 </p>
                 <p>
                     <h5>Literatuur</h5>
-                    <div class="columns">
-                        <div class="column is-two-thirds">
-                            <ul>
-                                <li>Anti Patterns <em>[door: William J. Brown, Raphael C. Malveau, Hays W. "Skip" McCormick III & Thomas J. Mowbray]</em></li>
-                                <li>Basiscursus JavaScript 1.5 <em>[door: Peter Kassenaar]</em></li>
-                                <li>Basishandleiding Google in één oogopslag <em>[door: Bert van Aalten]</em></li>
-                                <li>Beginning C++ Through Game Programming (incl. CD) <em>[door: Michael Dawson]</em></li>
-                                <li>Game Architecture and Design - A new edition <em>[door: Andrew Rollings & Dave Morris]</em></li>
-                                <li>Goochelen met Google <em>[door: Dirk de Grooff]</em></li>
-                                <li>Head First C# <em>[door: Andrew Stellman & Jennifer Greene]</em></li>
-                                <li>Head First Object-Oriented Analysis & Design <em>[door: Brett D. McLaughlin, Gary Pollice & David West]</em></li>
-                                <li>HTML & CSS <em>[door: Jon Duckett]</em></li>
-                                <li>Mathematics for 3D Game Programming & Computer Graphics <em>[door: Eric Lengyel]</em></li>
-                                <li>PHP 5 <em>[door: Ward van der Put]</em></li>
-                                <li>Step by step Access 2 NL/Windows <em>[door: Kluwer Bedrijfswetenschappen]</em></li>
-                                <li>Step by step Microsoft Visual C# 2012 <em>[door: John Sharp]</em></li>
-                                <li>Verder met internet <em>[door:	Bob van Duuren]</em></li>
-                                <li>Werken met MSDOS <em>[door: Van Wolverton]</em></li>
-                                <li>Windows XP Grand Cru - SP2 editie <em>[door: John Levine & Margaret Levine Young]</em></li>
-                            </ul>
-                        </div>
-                        <div class="column">
-                            <img src="https://images.unsplash.com/photo-1503365070998-37e56a2606e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8b5910ce357f43bd10b8f7558339631e&auto=format&fit=crop&w=1950&q=80" alt="Boekenmagazijn" class="image">
-                        </div>
-                    </div>
+                    <ul>
+                        <li>Anti Patterns <em>[door: William J. Brown, Raphael C. Malveau, Hays W. "Skip" McCormick III & Thomas J. Mowbray]</em></li>
+                        <li>Basiscursus JavaScript 1.5 <em>[door: Peter Kassenaar]</em></li>
+                        <li>Basishandleiding Google in één oogopslag <em>[door: Bert van Aalten]</em></li>
+                        <li>Beginning C++ Through Game Programming (incl. CD) <em>[door: Michael Dawson]</em></li>
+                        <li>Game Architecture and Design - A new edition <em>[door: Andrew Rollings & Dave Morris]</em></li>
+                        <li>Goochelen met Google <em>[door: Dirk de Grooff]</em></li>
+                        <li>Head First C# <em>[door: Andrew Stellman & Jennifer Greene]</em></li>
+                        <li>Head First Object-Oriented Analysis & Design <em>[door: Brett D. McLaughlin, Gary Pollice & David West]</em></li>
+                        <li>HTML & CSS <em>[door: Jon Duckett]</em></li>
+                        <li>Mathematics for 3D Game Programming & Computer Graphics <em>[door: Eric Lengyel]</em></li>
+                        <li>PHP 5 <em>[door: Ward van der Put]</em></li>
+                        <li>Step by step Access 2 NL/Windows <em>[door: Kluwer Bedrijfswetenschappen]</em></li>
+                        <li>Step by step Microsoft Visual C# 2012 <em>[door: John Sharp]</em></li>
+                        <li>Verder met internet <em>[door:	Bob van Duuren]</em></li>
+                        <li>Werken met MSDOS <em>[door: Van Wolverton]</em></li>
+                        <li>Windows XP Grand Cru - SP2 editie <em>[door: John Levine & Margaret Levine Young]</em></li>
+                    </ul>
                 </p>
                 
                 <h4 id="procedure">Procedure</h4>
@@ -163,27 +156,30 @@ export default {
 </script>
 
 <style>
+    a {
+        color: #00A5F7;
+    }
 
-  h1, h2 {
-    border-bottom: 1px solid #dbdbdb;
-    padding-bottom: 15px;
-     color: #e2000f !important;
-  }
-
-  h3 {
-    border-left: 5px solid black;
-    padding-left: 5px;
-    color: #e2000f !important;
-  }
-
-  h4 {
-    color: #e2000f !important;
-  }
-
-  .toc {
-    background: #f4f4f4;
-    padding: 25px;
-    position: fixed;
-  }
+    h1, h2 {
+        border-bottom: 1px solid #dbdbdb;
+        padding-bottom: 15px;
+        color: #00A5F7 !important;
+    }
+    
+    h3 {
+        border-left: 5px solid black;
+        padding-left: 5px;
+        color: #00A5F7 !important;
+    }
+    
+    h4 {
+        color: #00A5F7 !important;
+    }
+    
+    .toc {
+        background: #f4f4f4;
+        padding: 25px;
+        position: fixed;
+    }
 
 </style>
