@@ -6,11 +6,10 @@
 
         <div class="navbar-menu">
           <div class="navbar-start">
-            <router-link :to="{name: 'Home'}" class="navbar-item" href="https://bulma.io">
+            <router-link :to="{name: 'Home'}" class="navbar-item" href="#">
               <img src="./assets/rc-fc.png">
             </router-link>
             <router-link :to="{name: 'Home'}" class="navbar-item"> Algemene Informatie </router-link>
-            <router-link :to="{name: 'Checklist'}" class="navbar-item"> Planning/Checklist </router-link>
             <router-link :to="{name: 'Skillkaarten'}" class="navbar-item"> Skillkaarten </router-link>
             <router-link :to="{name: 'Downloads'}" class="navbar-item"> Downloads </router-link>
           </div>
@@ -52,7 +51,7 @@ export default {
   }
 
   .router-link-exact-active {
-    color: #e2000f !important;
+    color: #00A5F7 !important;
   }
 
 .fade-enter-active, .fade-leave-active {
