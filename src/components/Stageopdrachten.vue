@@ -1,8 +1,8 @@
 <template>
   <div class="root-element content">
     <h1> Skillkaarten</h1>
-    <div class="notification is-info" style="font-weight: bold">
-    Voor iedere Skillkaart maak je gebruik van de "Skillkaart template", te vinden onder "downloads"
+    <div class="notification is-danger" style="font-weight: bold">
+      LET OP: De word- templates behorende bij de skillkaarten zijn nog niet bijgewerkt. Deze word documenten dus nog niet gebruiken!
     </div>
     <div class="boards">
         <div class="columns">
