@@ -100,7 +100,47 @@ export default {
           Ze is met oefeningen bezig om de kinderen klinkers te leren. Ze heeft als opdracht de kinderen meegegeven om een zin te maken die zoveel mogelijk klinkers bevat.
           Jij gaat voor haar een programma schrijven die van een gegeven string het <b>aantal</b> klinkers terug geeft.
           </p>`,
-          level: 'bronze'
+          level: 'bronze',
+          hulp: `geen hulp aangeboden.`
+        },
+        {
+          title: 'Tim ♥ Roman Numerals',
+          content: `Tim richt zijn huis opnieuw in. Hij wil ooit een digitale kalender maken met Romeinse cijfers om aan de muur te hangen. Aangezien hij nogal moeite heeft met het converteren van nummers naar Romeinse cijfers wil hij allereerst graag een programma die dat voor hem bouwt.
+          Maak een programma dat elk nummer t/m 2000 om kan zetten in Romeinse cijfers. Tim wil dat dit makkelijk uit breiden is en mag dus niet hardcoded zijn.
+          `,
+          level: 'gold',
+          hulp: `
+          <p> inputvoorbeeld: <code> 567 </code> </p>
+          <p> outputvoorbeeld: <code> DLXVII </code> </p>
+          `
+        },
+        {
+          title: 'Piet !♥ Roman Numerals',
+          content: `Piet kijkt graag films. Piet vind het leuk om ook de aftiteling te bekijken. Op het einde volgt er altijd een copyright met Romeinse cijfers. Piet begrijpt helemaal niks van die romeinse cijfers. Hij wil graag een programma om die Romeinse cijfers om te zetten naar een jaartal. Schrijf hiervoor een functie of een methode.`,
+          level: 'gold',
+          hulp: `
+          <p> inputvoorbeeld: <code> MCMLXXXVII </code> </p>
+          <p> outputvoorbeeld: <code> 1987 </code> </p>
+          `
+        },
+        {
+          title: 'De zoekmachine part 1',
+          content: `Mark wilt graag een zoekmachine bouwen. Om te voorkomen dat kleine woorden veel te veel resultaten oproepen moeten de kleinste woorden eerst verwijderd worden. Jij krijgt de opdracht om als eerste stap het kleinste woord van de ingegeven zoekterm te vinden, en vervolgens te tellen hoeveel letters deze bevat.
+          Input is een zin. Maak een methode of functie die van het kleinste woord het aantal letters teruggeeft.
+          `,
+          level: 'bronze',
+          hulp: `
+            <p>inputvoorbeeld: <code> Hoe het beste te zoeken op internet? </code></p>
+            <p> outputvoorbeeld: <code> kleinste woordgrootte: 2 </code>
+          `
+        },
+        {
+          title: 'racecaracecar',
+          content: `<p>Sietse rijdt in zijn racecar tijdens een belangrijke wedstrijd helemaal achteraan. Hij kan zijn gedachtes er even niet bij houden. Hij kijkt naar zijn meetsysteem en komt tot de ongelofelijke ontdekking dat het woord meetsysteem een palindroom is! Terwijl hij zich hier over verwondert komt hij ook tot de conclusie dat racecar een palindroom is. Nu kan hij zich al helemaal niet meer concentreren. Hij verliest de wedstrijd grandioos. Eenmaal thuis kan hij deze palindromen niet uit zijn hoofd krijgen. Hij vraagt zich af er nog meer woorden zijn die palindromen zijn.
+</p><p> Bedenk voor Sietse een programma die checkt of een gegeven woord een palindroom is.</p>
+`,
+          level: 'silver',
+          hulp: `geen hulp aangeboden`
         }
       ]
     }
