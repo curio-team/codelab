@@ -4,11 +4,11 @@
             <div class="column is-two-third">
                 <img src="../assets/logo-codelab.png" alt="CodeLab Logo">
                 <h1>Welkom bij het CodeLab!</h1>
-                
+
                 <p>
                     Er is een moment op jouw rooster ingepland waar jij, samen met de docenten, kan gaan werken aan hobbyprojecten. Dit moment is het CodeLab, waar je de mogelijkheid krijgt je te verdiepen in onderwerpen die <strong>JIJ</strong> interessant vindt!
                 </p>
-                
+
                 <h3 id="inleiding">Wat is het CodeLab?</h3>
                 <p>
                     Bij veel grote bedrijven (denk aan Google, Facebook en Apple) krijgen werknemers een aantal uur per week de tijd om aan projecten te werken die zij zelf interressant vinden. Bij Google zijn onder andere de volgende projecten ontstaan in deze vrije tijd: Gmail, Google News, AdSense en Cardboard.
@@ -23,6 +23,11 @@
                 <p>
                     Je bent vrij aan alles te werken wat met applicatie- en mediaontwikkeling te maken heeft. Dit kan betekenen dat je een website maakt voor jezelf of vrienden of familie. Je kan een game maken zodat jouw vrienden deze kunnen spelen of mogelijk zet je het spel op Steam Greenlight. Een Virtual Reality game zouden wij wel tof vinden! Je kan ook gaan werken aan een alternatief voor een slecht werkende app op jouw smartphone?
                 </p>
+                <h4>Code Lab assigments</h4>
+                <p>
+                    Het CodeLab heeft voor jou een aantal leuke uitdagende opdrachten in de vorm van  <router-link :to="{ name: 'Codelab_Assignments'}">CodeLab Assignments</router-link>. Dit zijn uitdagingen die je in iedere programmeertaal kan proberen op te lossen.
+                    Het maakt dus niet uit wat voor programmeertaal, maar ook niet wat voor platform je de opdrachten in gaat voltooien? Ga je een console app maken? een webapp? winforms? iets anders? helemaal aan jou!
+                </p>
                 <p>
                     Daarnaast ben je ook vrij jezelf te verdiepen in een of meerdere van de duizenden programmeertalen, frameworks of tools die beschikbaar zijn om het programmeurs makkelijker te maken. Denk aan Javascript, ASP.NET, Java, Git, SVN, Docker, Composer of Node.js...
                 </p>
@@ -32,7 +37,7 @@
                 <p>
                     De keuze is aan jou!
                 </p>
-                
+
                 <h3 id="skillkaarten">Hoe kies ik en maak ik skillkaarten?</h3>
                 <p>
                     Het makkelijkst is dat je een keer even op je gemak de skillkaarten doorleest. Wanneer je aan een project gaat werken kun je een aantal van de skillkaarten die erbij passen gebruiken om jouw werkprocessen aan te tonen. Je zal al snel merken dat veel van de werkprocessen goed om te vormen zijn naar taken die je zal moeten verrichten bij het CodeLab.
@@ -43,7 +48,7 @@
                 <p>
                     Bij iedere skillkaart kun je een korte omschrijving van de opdracht, wat voor documenten je zal moeten maken en wat het uiteindelijke resultaat is.
                 </p>
-                
+
                 <h3 id="leenmateriaal">Leenmateriaal</h3>
                 <h4 id="magazijn">AMO Magazijn</h4>
                 <p>
@@ -77,7 +82,7 @@
                         <li>Windows XP Grand Cru - SP2 editie <em>[door: John Levine & Margaret Levine Young]</em></li>
                     </ul>
                 </p>
-                
+
                 <h4 id="procedure">Procedure</h4>
                 <p>
                     Je mag uit het magazijn producten lenen of gebruiken tijdens het CodeLab. De procedure hiervoor is als volgt:
@@ -91,7 +96,7 @@
                         <li>De docent noteert dat jij het product hebt ingeleverd en geeft je <strong>schoolpas</strong> terug.</li>
                     </ol>
                 </p>
-                
+
                 <h3 id="beoordeling"> Beoordeling </h3>
                 <p>
                     Voor de beoordeling van CodeLab zijn de volgende documenten van belang:
@@ -100,7 +105,7 @@
                         <li>Ingevulde Skillkaarten</li>
                     </ul>
                 </p>
-                
+
                 <h4 id="weekrapportages"> Weekrapportages </h4>
                 <p>
                     Van iedere CodeLab dien je een logboek bij te houden, hierin schrijf je duidelijk waar je mee aan de slag bent gegaan. Een goede manier om iets op te schrijven is bijvoorbeeld:
@@ -114,13 +119,13 @@
                 <p>
                     <blockquote>"gewerkt aan site"</blockquote>
                 </p>
-                
+
                 <h4 id="ingevuldeSkillkaarten"> Ingevulde Skillkaarten </h4>
                 <p>
                     Skillkaarten zijn (sets met) opdrachten die jou in staat stellen om te bewijzen dat je aan de slag met gegaan met de verschillende werkprocessen van jouw opleiding in de praktijk. Iedere skillkaart staat in het teken van een specifiek werkproces.
                 </p>
             </div>
-    
+
             <div class="column is-one-third">
                 <aside class="toc">
                     <ul class="toc-list">
@@ -165,17 +170,17 @@ export default {
         padding-bottom: 15px;
         color: #00A5F7 !important;
     }
-    
+
     h3 {
         border-left: 5px solid black;
         padding-left: 5px;
         color: #00A5F7 !important;
     }
-    
+
     h4 {
         color: #00A5F7 !important;
     }
-    
+
     .toc {
         background: #f4f4f4;
         padding: 25px;
