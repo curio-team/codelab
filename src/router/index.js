@@ -6,6 +6,7 @@ import Planning from '@/components/Planning.vue'
 import Downloads from '@/components/Downloads.vue'
 import Orientatie from '@/components/Orientatie.vue'
 import Checklist from '@/components/Checklist.vue'
+import CodelabAssignment from '@/components/CodelabAssignment.vue'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/checklist',
       name: 'Checklist',
       component: Checklist
+    },
+    {
+      path: '/codelab-assignments',
+      name: 'Codelab_Assignments',
+      component: CodelabAssignment
     }
   ]
 })
