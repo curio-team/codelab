@@ -133,7 +133,6 @@
 
           <h3>Resultaat</h3>
           <p v-html="activeOpdracht.resultaat"> </p>
-          <a :href="activeOpdracht.docpath" class="button is-info">Template downloaden</a>
         </section>
       </div>
     </div>
@@ -159,7 +158,6 @@ export default {
           resultaat: `Het resultaat is een door de CodeLab begeleider goedgekeurde opdracht waarin de beschikbare
                       informatie is verwerkt. Voor het vaststellen
                       van de opdracht is gebruik gemaakt van de <a href="https://nl.wikipedia.org/wiki/MoSCoW-methode"> MoSCoW-methode</a>`,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_1.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -194,7 +192,6 @@ export default {
           resultaat: `Een realistische planning  gebruikmakend van een planningstool zoals Asana,
                       of Microsoft Project, die waar nodig wordt bijgesteld.
                      `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_1.2.docx?raw=true',
           oplevering:
           {
             'clicked': false,
@@ -228,7 +225,6 @@ export default {
           resultaat: `Een product wat laat zien dat je een bijdrage hebt geleverd aan het functioneel of technisch
                       ontwerp van een applicatie. Dit kunnen prototypes zijn, diagrammen, schetsen of moodboards.
                       Deze producten zijn gepresenteerd aan de opdrachtgever of jouw projectteam.`,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_1.3.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -295,7 +291,6 @@ export default {
                       de juiste configuraties. De vorm hiervan is een word-document zijn of een readme.md bestand waarin
                       stapsgewijs vermeld staat hoe de ontwikkelomgeving ingericht wordt. Hierbij is gebruik van
                       handigheidjes die je eventueel al kent, zoals bijvoorbeeld een goed ingerichte package.json bestand.`,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_1.4.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -337,7 +332,6 @@ export default {
             nog niet ergens geïmplementeerd te zijn. De code is volgens de normen van de opleiding geschreven
             en goedgekeurd. De applicatie is binnen de gestelde tijd welke vooraf is vastgelegd door jou en jouw CodeLab begeleider, afgerond.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_2.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -392,7 +386,6 @@ export default {
             opgesteld en uitgevoerd om zeker te weten dat de applicatie kwalitatief in orde is. Een groepsgenoot heeft een door jou opgestelde
             functionele test uitgevoerd voor de applicatie. Er zijn verbetervoorstellen gemaakt om de applicatie te optimaliseren.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_2.2.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -445,7 +438,6 @@ export default {
             verbeteringen aan de applicatie verwerkt. Eventuele commentaar op de pull request heb je afgehandeld en opnieuw
             ingediend.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_3.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -474,7 +466,6 @@ export default {
           resultaat: `
             De applicatie is goedgekeurd en gepresenteerd aan (een deel van de) CodeLab groep.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_3.2.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -500,7 +491,6 @@ export default {
             Het opgeleverde product is geëvalueerd en je hebt voor jezelf doelstellingen opgelegd waar je bij je volgende ontwikkel klus
             rekening mee kan houden.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_3.3.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -525,7 +515,6 @@ export default {
           resultaat: `
             Incidentmeldingen m.b.t. de applicatie (vragen, bugs, aanpassingsverzoeken) worden op correcte manier afgehandeld.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_profiel1.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -549,7 +538,6 @@ Daarnaast doe je uitgebreid verslag van een ticket die je zelf hebt afgehandeld.
             Het stagebedrijf heeft alle documentatie en data met betrekking tot de door jouw gebouwde en beheerde applicaties tot zijn beschikking
             en kan hierin snel zijn weg vinden.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_profiel1.2.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
