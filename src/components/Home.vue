@@ -9,6 +9,17 @@
                     Er is een moment op jouw rooster ingepland waar jij, samen met de docenten, kan gaan werken aan hobbyprojecten. Dit moment is het CodeLab, waar je de mogelijkheid krijgt je te verdiepen in onderwerpen die <em>JIJ</em> interessant vindt!
                 </p>
 
+                <h3 id="samenvatting">Samenvatting</h3>
+                <ul>
+                    <li>Tijdens CodeLab <em>mag</em> je werken aan alles wat met de opleiding te maken heeft.</li>
+                    <li>Je <em>moet</em> iedere periode een <router-link :to="{ name: 'Skillkaarten'}">skillkaart</router-link> maken</li>
+                    <li>Een skillkaart is een laag over een technische opdracht heen.</li>
+                    <li>Je kunt bijvoorbeeld de <router-link :to="{ name: 'Codelab_Assignments'}">assignments</router-link> gebruiken, of een eigen project.</li>
+                    <li>Let op: sommige skillkaarten maak je <em>voor</em> een project, andere tijdens of <em>na</em> het project.</li>
+                    <li>Feedback vragen en aftekenen doe je met de <a href="static/Aftekenlijst_CodeLab.pdf" target="_blank">aftekenlijst</a>.</li>
+                    <li>De aftekenlijst is je bewijs, deze moet je meenemen naar het PFVG.</li>
+                </ul>
+
                 <h3 id="inleiding">Wat is het CodeLab?</h3>
                 <p>
                     Bij veel grote bedrijven (denk aan Google, Facebook en Apple) krijgen werknemers een aantal uur per week de tijd om aan projecten te werken die zij zelf interressant vinden. Bij Google zijn onder andere de volgende projecten ontstaan in deze vrije tijd: Gmail, Google News, AdSense en Cardboard.
