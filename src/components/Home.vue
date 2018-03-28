@@ -43,14 +43,44 @@
                     Het makkelijkst is dat je een keer even op je gemak de skillkaarten doorleest. Wanneer je aan een project gaat werken kun je een aantal van de skillkaarten die erbij passen gebruiken om jouw werkprocessen aan te tonen. Je zal al snel merken dat veel van de werkprocessen goed om te vormen zijn naar taken die je zal moeten verrichten bij het CodeLab.
                 </p>
                 <p>
-                    <strong>Je wordt verwacht minstens 1 skillkaart af te ronden per periode.</strong> Wanneer je tijd hebt mag je natuurlijk meer skillkaarten afronden en jezelf op deze manier beter voorbereiden voor je examen.
+                    Je wordt verwacht minstens 1 skillkaart af te ronden per periode. Wanneer je tijd hebt mag je natuurlijk meer skillkaarten afronden en jezelf op deze manier beter voorbereiden voor je examen.
                 </p>
                 <p>
                     Bij iedere skillkaart kun je een korte omschrijving van de opdracht, wat voor documenten je zal moeten maken en wat het uiteindelijke resultaat is.
                 </p>
+                <p>
+                    Een skillkaart is eigenlijk een laag die je over een technische opdracht  kunt leggen. Bijvoorbeeld: je maakt je eigen programma, en laat het vervolgens testen (2.2). Of je maakt eerst een ontwerp (1.3) en gaat daarna programmeren. Je mag voor de skillkaart alle opdrachten gebruiken, behalve het gewone project. Bijvoorbeeld een van de <router-link :to="{ name: 'Codelab_Assignments'}">assignments</router-link>, een website die je maakt voor jezelf of voor een opdrachtgever, of een opdracht die je van de docenten krijgt.
+                </p>
+
+                <h3 id="beoordeling">Beoordeling</h3>
+                <p>
+                    Voor de beoordeling van CodeLab zijn de volgende documenten van belang:
+                    <ul>
+                        <li>Aftekenlijst</li>
+                        <li>Weekrapportages</li>
+                    </ul>
+                </p>
+
+                <h4 id="aftekenlijst">Aftekenlijst</h4>
+                <p>
+                    Als je begint aan een skillkaart, druk je alvast de <a href="static/Aftekenlijst_CodeLab.pdf" target="_blank">aftekenlijst</a> af. Tussendoor kun je om feedback vragen van de docenten (of je op de goede weg bent). Dat kan de docent aangeven op de aftekenlijst. Als je klaar bent en de docent keurt je skillkaart goed, wordt dat onderdaan de lijst afgetekend. De aftekenlijst is het bewijs, die moet je meebrengen naar je PFVG in de toetsweek! <a href="static/Aftekenlijst_CodeLab.pdf" target="_blank">Download de aftekenlijst.</a>
+                </p>
+
+                <h4 id="weekrapportages">Weekrapportages </h4>
+                <p>
+                    Van iedere CodeLab dien je een logboek bij te houden, hierin schrijf je duidelijk waar je mee aan de slag bent gegaan. Een goede manier om iets op te schrijven is bijvoorbeeld:
+                </p>
+                <p>
+                    <blockquote>"gewerkt aan mijn portfoliowebsite: de header zit nu vast aan de bovenkant van de browser en ik heb de kleuren verandert na een mooi pallet te zoeken op coolors.co"</blockquote>
+                </p>
+                <p>
+                    Met een logboekregel zoals hierboven weet jij zelf en ook de docent waar jij je mee bezig hebt gehouden. Een manier van opschrijven waar je niet veel aan hebt is:
+                </p>
+                <p>
+                    <blockquote>"gewerkt aan site"</blockquote>
+                </p>
 
                 <h3 id="leenmateriaal">Leenmateriaal</h3>
-                <h4 id="magazijn">AMO Magazijn</h4>
                 <p>
                     <h5>Apparatuur</h5>
                     <ul>
@@ -96,52 +126,25 @@
                         <li>De docent noteert dat jij het product hebt ingeleverd en geeft je <strong>schoolpas</strong> terug.</li>
                     </ol>
                 </p>
-
-                <h3 id="beoordeling"> Beoordeling </h3>
-                <p>
-                    Voor de beoordeling van CodeLab zijn de volgende documenten van belang:
-                    <ul>
-                        <li>Weekrapportages</li>
-                        <li>Ingevulde Skillkaarten</li>
-                    </ul>
-                </p>
-
-                <h4 id="weekrapportages"> Weekrapportages </h4>
-                <p>
-                    Van iedere CodeLab dien je een logboek bij te houden, hierin schrijf je duidelijk waar je mee aan de slag bent gegaan. Een goede manier om iets op te schrijven is bijvoorbeeld:
-                </p>
-                <p>
-                    <blockquote>"gewerkt aan mijn portfoliowebsite: de header zit nu vast aan de bovenkant van de browser en ik heb de kleuren verandert na een mooi pallet te zoeken op coolors.co"</blockquote>
-                </p>
-                <p>
-                    Met een logboekregel zoals hierboven weet jij zelf en ook de docent waar jij je mee bezig hebt gehouden. Een manier van opschrijven waar je niet veel aan hebt is:
-                </p>
-                <p>
-                    <blockquote>"gewerkt aan site"</blockquote>
-                </p>
-
-                <h4 id="ingevuldeSkillkaarten"> Ingevulde Skillkaarten </h4>
-                <p>
-                    Skillkaarten zijn (sets met) opdrachten die jou in staat stellen om te bewijzen dat je aan de slag met gegaan met de verschillende werkprocessen van jouw opleiding in de praktijk. Iedere skillkaart staat in het teken van een specifiek werkproces.
-                </p>
             </div>
 
             <div class="column is-one-third">
                 <aside class="toc">
                     <ul class="toc-list">
+                        <li> <a href="#samenvatting">Samenvatting</a> </li>
                         <li> <a href="#inleiding">Wat is het CodeLab?</a> </li>
                         <li> <a href="#opdrachten">Waar mag ik aan werken tijdens CodeLab?</a> </li>
                         <li> <a href="#skillkaarten">Hoe kies ik en maak ik skillkaarten?</a> </li>
+                        <li> <a href="#beoordeling">Beoordeling</a>
+                            <ul>
+                              <li> <a href="#aftekenlijst">Aftekenlijst</a> </li>
+                              <li > <a href="#weekrapportages">Weekrapportages</a> </li>
+                            </ul>
+                        </li>
                         <li> <a href="#leenmateriaal">Leenmateriaal</a>
                             <ul>
                               <li> <a href="#magazijn">AMO Magazijn</a> </li>
                               <li> <a href="#procedure">Procedure</a> </li>
-                            </ul>
-                        </li>
-                        <li> <a href="#beoordeling">Beoordeling</a>
-                            <ul>
-                              <li> <a href="#weekrapportages">Weekrapportages</a> </li>
-                              <li > <a href="#ingevuldeSkillkaarten">Ingevulde Skillkaarten</a> </li>
                             </ul>
                         </li>
                     </ul>
