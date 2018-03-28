@@ -192,23 +192,23 @@ export default {
           resultaat: `Een realistische planning  gebruikmakend van een planningstool zoals Asana,
                       of Microsoft Project, die waar nodig wordt bijgesteld.
                      `,
-          oplevering:
-          {
-            'clicked': false,
-            'document': `Activiteiten planning`,
-            'beschrijving': `Maak van de opdracht die je gaat doen een onderverdeling in minimaal 10 (sub)taken. Geef hierbij per item aan:
-            <ul>
-              <li> titel</li>
-              <li> omschrijving </li>
-              <li> prioriteit </li>
-              <li> opvolging </li>
-              <li> geschatte tijdsduur</li>
-            </ul>
-            Maak screenshots van de gemaakte projectplanning en geef daar waar nodig uitleg bij de gemaakte screenshots.
-            `
+          oplevering: [
+            {
+              'clicked': false,
+              'document': `Activiteiten planning`,
+              'beschrijving': `Maak van de opdracht die je gaat doen een onderverdeling in minimaal 10 (sub)taken. Geef hierbij per item aan:
+              <ul>
+                <li> titel</li>
+                <li> omschrijving </li>
+                <li> prioriteit </li>
+                <li> opvolging </li>
+                <li> geschatte tijdsduur</li>
+              </ul>
+              Maak screenshots van de gemaakte projectplanning en geef daar waar nodig uitleg bij de gemaakte screenshots.
+              `
 
-          }
-
+            }
+          ]
         },
         {
           kt: 1,
