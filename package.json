@@ -1,7 +1,7 @@
 {
-  "name": "stage",
+  "name": "codelab",
   "version": "1.0.0",
-  "description": "Stageopdrachten Applicatie- en mediaontwikkeling",
+  "description": "CodeLab Applicatie- en mediaontwikkeling",
   "author": "Radiuscollege <feddevangils@gmail.com>",
   "private": true,
   "scripts": {
