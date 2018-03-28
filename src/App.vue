@@ -11,7 +11,6 @@
             </router-link>
             <router-link :to="{name: 'Home'}" class="navbar-item"> Algemene Informatie </router-link>
             <router-link :to="{name: 'Skillkaarten'}" class="navbar-item"> Skillkaarten </router-link>
-            <router-link :to="{name: 'Downloads'}" class="navbar-item"> Downloads </router-link>
             <router-link :to="{name: 'Codelab_Assignments'}" class="navbar-item"> Codelab Assignments </router-link>
           </div>
         </div>
