@@ -1,16 +1,13 @@
 <template>
   <div class="root-element content">
     <h1> Skillkaarten</h1>
-    <div class="notification is-danger" style="font-weight: bold">
-      LET OP: De word- templates behorende bij de skillkaarten zijn nog niet bijgewerkt. Deze word documenten dus nog niet gebruiken!
-    </div>
     <div class="boards">
         <div class="columns">
           <div class="column is-3 board" id="b1">
             <div class="box is-gray">
               <div class="head">
                 <div class="name">Kerntaak 1</div>
-                <h4>Voorbereiding</h4>
+                <h4>B1-K1</h4>
 
                 <p class="sub-title">Levert een bijdrage aan het ontwikkeltraject.</p>
 
@@ -18,7 +15,7 @@
               </div>
               <div class="items">
                 <div :key="opdracht.wp" class="box"  id="b1c1" v-if="opdracht.kt == 1" v-for="opdracht in opdrachten">
-                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+                  <p>{{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
                   <p class="meta">
                     <button @click="setActive(opdracht)" class="button is-info"> <i class="fa fa-eye"></i> Open Skillkaart  </button>
                   </p>
@@ -35,13 +32,13 @@
           <div class="box is-gray">
             <div class="head">
               <div class="name">Kerntaak 2</div>
-              <h4>Realisatie</h4>
-              <p class="sub-title">Realiseert en test (onderdelen van) een project.</p>
+              <h4>B1-K2</h4>
+              <p class="sub-title">Realiseert en test (onderdelen van) een product.</p>
 
             </div>
             <div class="items">
               <div class="box" id="b2c1" v-if="opdracht.kt == 2" v-for="opdracht, key in opdrachten">
-                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+                  <p>{{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
 
                   <p class="meta">
                     <button  @click="setActive(opdracht)" class="button is-info"><i class="fa fa-eye"></i> Open Skillkaart  </button>
@@ -57,13 +54,13 @@
           <div class="box is-gray">
             <div class="head">
               <div class="name">Kerntaak 3</div>
-              <h4>Oplevering</h4>
+              <h4>B1-K3</h4>
               <p class="sub-title">Levert een product op.</p>
 
             </div>
             <div class="items">
               <div class="box" id="b3c1"  v-if="opdracht.kt == 3" v-for="opdracht in opdrachten">
-                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+                  <p>{{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
 
                   <p class="meta">
                     <button @click="setActive(opdracht)"  class="button is-info"><i class="fa fa-eye"></i> Open Skillkaart  </button>
@@ -78,13 +75,13 @@
         <div class="column is-3 board" id="b4">
           <div class="box is-gray">
             <div class="head">
-              <div class="name">Profieldeel 1</div>
-              <h4>Beheer en Optimalisatie</h4>
+              <div class="name">Profieldeel</div>
+              <h4>P1-K1</h4>
               <p class="sub-title">Onderhoudt en beheert de applicatie.</p>
             </div>
             <div class="items">
               <div class="box" id="b4c1" v-if="opdracht.kt == 4" v-for="opdracht in opdrachten">
-                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+                  <p>{{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
 
                   <p class="meta">
                     <button @click="setActive(opdracht)"  class="button is-info"><i class="fa fa-eye"></i> Open Skillkaart  </button>
@@ -133,7 +130,6 @@
 
           <h3>Resultaat</h3>
           <p v-html="activeOpdracht.resultaat"> </p>
-          <a :href="activeOpdracht.docpath" class="button is-info">Template downloaden</a>
         </section>
       </div>
     </div>
@@ -151,7 +147,7 @@ export default {
       opdrachten: [
         {
           kt: 1,
-          wp: '1.1',
+          wp: 'B1-K1-W1',
           naam: 'Stelt de opdracht vast',
           keyword: 'Voorbereiding',
           beschrijving: `Voor deze opdracht ga je komen tot een opdracht om binnen het CodeLab uit te voeren. Om tot een duidelijke afbakening van de opdracht te komen ga je overleggen met een begeleider. Je maakt daarbij notities en/of schetsen, stelt inhoudelijke vragen ter verduidelijking van de opdracht en laat zien dat je meedenkt aan de opdracht door tijdens het gesprek aanvullingen te geven of ideeën op te gooien. Ook ga je zelfstandig op informatie-onderzoek uit naar de te maken opdracht
@@ -159,7 +155,6 @@ export default {
           resultaat: `Het resultaat is een door de CodeLab begeleider goedgekeurde opdracht waarin de beschikbare
                       informatie is verwerkt. Voor het vaststellen
                       van de opdracht is gebruik gemaakt van de <a href="https://nl.wikipedia.org/wiki/MoSCoW-methode"> MoSCoW-methode</a>`,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_1.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -185,7 +180,7 @@ export default {
         },
         {
           kt: 1,
-          wp: '1.2',
+          wp: 'B1-K1-W2',
           naam: 'Levert een bijdrage aan het projectplan',
           beschrijving: `Je gaat op basis van jouw opdracht de werkzaamheden inventariseren
                         die hierbij horen. Je beschrijft de activiteiten die bij deze opdracht komen kijken
@@ -194,28 +189,27 @@ export default {
           resultaat: `Een realistische planning  gebruikmakend van een planningstool zoals Asana,
                       of Microsoft Project, die waar nodig wordt bijgesteld.
                      `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_1.2.docx?raw=true',
-          oplevering:
-          {
-            'clicked': false,
-            'document': `Activiteiten planning`,
-            'beschrijving': `Maak van de opdracht die je gaat doen een onderverdeling in minimaal 10 (sub)taken. Geef hierbij per item aan:
-            <ul>
-              <li> titel</li>
-              <li> omschrijving </li>
-              <li> prioriteit </li>
-              <li> opvolging </li>
-              <li> geschatte tijdsduur</li>
-            </ul>
-            Maak screenshots van de gemaakte projectplanning en geef daar waar nodig uitleg bij de gemaakte screenshots.
-            `
+          oplevering: [
+            {
+              'clicked': false,
+              'document': `Activiteiten planning`,
+              'beschrijving': `Maak van de opdracht die je gaat doen een onderverdeling in minimaal 10 (sub)taken. Geef hierbij per item aan:
+              <ul>
+                <li> titel</li>
+                <li> omschrijving </li>
+                <li> prioriteit </li>
+                <li> opvolging </li>
+                <li> geschatte tijdsduur</li>
+              </ul>
+              Maak screenshots van de gemaakte projectplanning en geef daar waar nodig uitleg bij de gemaakte screenshots.
+              `
 
-          }
-
+            }
+          ]
         },
         {
           kt: 1,
-          wp: '1.3',
+          wp: 'B1-K1-W3',
           naam: 'Levert een bijdrage aan het ontwerp',
           beschrijving: `In deze opdracht laat je zien dat je een bijdrage kan leveren aan de totstandkoming
                         van het design van een (web)applicatie. Denk hierbij aan het maken van layout
@@ -228,7 +222,6 @@ export default {
           resultaat: `Een product wat laat zien dat je een bijdrage hebt geleverd aan het functioneel of technisch
                       ontwerp van een applicatie. Dit kunnen prototypes zijn, diagrammen, schetsen of moodboards.
                       Deze producten zijn gepresenteerd aan de opdrachtgever of jouw projectteam.`,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_1.3.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -276,7 +269,7 @@ export default {
         },
         {
           kt: 1,
-          wp: '1.4',
+          wp: 'B1-K1-W4',
           naam: 'Bereidt de realisatie voor',
           beschrijving: `Je gaat op basis van één van jouw CodeLab projecten na wat je als ontwikkelomgeving
                         nodig denkt te hebben en maak hiervan documentatie. Is het bijvoorbeeld
@@ -295,7 +288,6 @@ export default {
                       de juiste configuraties. De vorm hiervan is een word-document zijn of een readme.md bestand waarin
                       stapsgewijs vermeld staat hoe de ontwikkelomgeving ingericht wordt. Hierbij is gebruik van
                       handigheidjes die je eventueel al kent, zoals bijvoorbeeld een goed ingerichte package.json bestand.`,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_1.4.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -322,7 +314,7 @@ export default {
         },
         {
           kt: 2,
-          wp: '2.1',
+          wp: 'B1-K2-W1',
           naam: 'Realiseert (onderdelen van) een product',
           beschrijving: `
             Je gaat een (onderdeel van een) applicatie ontwikkelen, gebruikmakend van gekregen of onderzochte informatie, zoals
@@ -337,7 +329,6 @@ export default {
             nog niet ergens geïmplementeerd te zijn. De code is volgens de normen van de opleiding geschreven
             en goedgekeurd. De applicatie is binnen de gestelde tijd welke vooraf is vastgelegd door jou en jouw CodeLab begeleider, afgerond.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_2.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -373,7 +364,7 @@ export default {
         },
         {
           kt: 2,
-          wp: '2.2',
+          wp: 'B1-K2-W2',
           naam: 'Test het ontwikkelde product',
           beschrijving: `
             Je bent gedurende het ontwikkelproces continu bezig met het testen van (onderdelen van) je applicatie. Je maakt gebruik van
@@ -392,7 +383,6 @@ export default {
             opgesteld en uitgevoerd om zeker te weten dat de applicatie kwalitatief in orde is. Een groepsgenoot heeft een door jou opgestelde
             functionele test uitgevoerd voor de applicatie. Er zijn verbetervoorstellen gemaakt om de applicatie te optimaliseren.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_2.2.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -424,7 +414,7 @@ export default {
         },
         {
           kt: 3,
-          wp: '3.1',
+          wp: 'B1-K3-W1',
           naam: 'Optimaliseert het product',
           beschrijving: `
             <h4> maak een keuze </h4>
@@ -445,7 +435,6 @@ export default {
             verbeteringen aan de applicatie verwerkt. Eventuele commentaar op de pull request heb je afgehandeld en opnieuw
             ingediend.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_3.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -465,7 +454,7 @@ export default {
         },
         {
           kt: 3,
-          wp: '3.2',
+          wp: 'B1-K3-W2',
           naam: 'Levert het product op',
           beschrijving: `
             Je levert nadat de laatste testactiviteiten zijn afgerond je product af aan de klant of in dit geval de CodeLab begeleider. Je laat door middel van een presentatie
@@ -474,7 +463,6 @@ export default {
           resultaat: `
             De applicatie is goedgekeurd en gepresenteerd aan (een deel van de) CodeLab groep.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_3.2.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -490,7 +478,7 @@ export default {
         },
         {
           kt: 3,
-          wp: '3.3',
+          wp: 'B1-K3-W3',
           naam: 'Evalueert het opgeleverde product',
           beschrijving: `
             Je gaat de oplevering aan de hand van gekregen feedback bespreken met je CodeLab begeleider.
@@ -500,7 +488,6 @@ export default {
             Het opgeleverde product is geëvalueerd en je hebt voor jezelf doelstellingen opgelegd waar je bij je volgende ontwikkel klus
             rekening mee kan houden.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_3.3.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -515,7 +502,7 @@ export default {
         },
         {
           kt: 4,
-          wp: 'P 1.1',
+          wp: 'P1-K1-W1',
           naam: 'Onderhoudt een applicatie',
           beschrijving: `Tijdens je opleiding komen er vast meldingen van jouw omgeving die support nodig hebben in het
           gebruik van hun applicatie. Je handelt eventuele incident meldingen professioneel af volgens de richtlijnen van jouw stagebedrijf.
@@ -525,7 +512,6 @@ export default {
           resultaat: `
             Incidentmeldingen m.b.t. de applicatie (vragen, bugs, aanpassingsverzoeken) worden op correcte manier afgehandeld.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_profiel1.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -539,7 +525,7 @@ Daarnaast doe je uitgebreid verslag van een ticket die je zelf hebt afgehandeld.
         },
         {
           kt: 4,
-          wp: 'P 1.2',
+          wp: 'P1-K1-W2',
           naam: 'Beheert gegevens',
           beschrijving: `Gedurende je loopbaan bouw je (mee aan) verschillende applicaties. Van alles wat je hebt gemaakt en beheert is het
           belangrijk dat de daarvoor benodigde data (denk aan inloggegevens, databasegegevens, specificaties, git repository e.d.) op een gestructureerde wijze
@@ -549,7 +535,6 @@ Daarnaast doe je uitgebreid verslag van een ticket die je zelf hebt afgehandeld.
             Het stagebedrijf heeft alle documentatie en data met betrekking tot de door jouw gebouwde en beheerde applicaties tot zijn beschikking
             en kan hierin snel zijn weg vinden.
           `,
-          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/Skillkaarten/Skillkaart_template_profiel1.2.docx?raw=true',
           oplevering: [
             {
               'clicked': false,

@@ -6,8 +6,19 @@
                 <h1>Welkom bij het CodeLab!</h1>
 
                 <p>
-                    Er is een moment op jouw rooster ingepland waar jij, samen met de docenten, kan gaan werken aan hobbyprojecten. Dit moment is het CodeLab, waar je de mogelijkheid krijgt je te verdiepen in onderwerpen die <strong>JIJ</strong> interessant vindt!
+                    Er is een moment op jouw rooster ingepland waar jij, samen met de docenten, kan gaan werken aan hobbyprojecten. Dit moment is het CodeLab, waar je de mogelijkheid krijgt je te verdiepen in onderwerpen die <em>JIJ</em> interessant vindt!
                 </p>
+
+                <h3 id="samenvatting">Samenvatting</h3>
+                <ul>
+                    <li>Tijdens CodeLab <em>mag</em> je werken aan alles wat met de opleiding te maken heeft.</li>
+                    <li>Je <em>moet</em> iedere periode een <router-link :to="{ name: 'Skillkaarten'}">skillkaart</router-link> maken</li>
+                    <li>Een skillkaart is een laag over een technische opdracht heen.</li>
+                    <li>Je kunt bijvoorbeeld de <router-link :to="{ name: 'Codelab_Assignments'}">assignments</router-link> gebruiken, of een eigen project.</li>
+                    <li>Let op: sommige skillkaarten maak je <em>voor</em> een project, andere tijdens of <em>na</em> het project.</li>
+                    <li>Feedback vragen en aftekenen doe je met de <a href="static/Aftekenlijst_CodeLab.pdf" target="_blank">aftekenlijst</a>.</li>
+                    <li>De aftekenlijst is je bewijs, deze moet je meenemen naar het PFVG.</li>
+                </ul>
 
                 <h3 id="inleiding">Wat is het CodeLab?</h3>
                 <p>
@@ -32,7 +43,7 @@
                     Daarnaast ben je ook vrij jezelf te verdiepen in een of meerdere van de duizenden programmeertalen, frameworks of tools die beschikbaar zijn om het programmeurs makkelijker te maken. Denk aan Javascript, ASP.NET, Java, Git, SVN, Docker, Composer of Node.js...
                 </p>
                 <p>
-                    Misschien verdiep je je wel in rouwe hardware om mee te programmeren, zoals Arduino of met niets meer dan een breadboard en een verzameling aan sensoren, lampjes en kabeltjes.
+                    Misschien verdiep je je wel in rauwe hardware om mee te programmeren, zoals Arduino of met niets meer dan een breadboard en een verzameling aan sensoren, lampjes en kabeltjes.
                 </p>
                 <p>
                     De keuze is aan jou!
@@ -43,14 +54,44 @@
                     Het makkelijkst is dat je een keer even op je gemak de skillkaarten doorleest. Wanneer je aan een project gaat werken kun je een aantal van de skillkaarten die erbij passen gebruiken om jouw werkprocessen aan te tonen. Je zal al snel merken dat veel van de werkprocessen goed om te vormen zijn naar taken die je zal moeten verrichten bij het CodeLab.
                 </p>
                 <p>
-                    <strong>Je wordt verwacht minstens 1 skillkaart af te ronden per periode.</strong> Wanneer je tijd hebt mag je natuurlijk meer skillkaarten afronden en jezelf op deze manier beter voorbereiden voor je examen.
+                    Je wordt verwacht minstens 1 skillkaart af te ronden per periode. Wanneer je tijd hebt mag je natuurlijk meer skillkaarten afronden en jezelf op deze manier beter voorbereiden voor je examen.
                 </p>
                 <p>
                     Bij iedere skillkaart kun je een korte omschrijving van de opdracht, wat voor documenten je zal moeten maken en wat het uiteindelijke resultaat is.
                 </p>
+                <p>
+                    Een skillkaart is eigenlijk een laag die je over een technische opdracht  kunt leggen. Bijvoorbeeld: je maakt je eigen programma, en laat het vervolgens testen (2.2). Of je maakt eerst een ontwerp (1.3) en gaat daarna programmeren. Je mag voor de skillkaart alle opdrachten gebruiken, behalve het gewone project. Bijvoorbeeld een van de <router-link :to="{ name: 'Codelab_Assignments'}">assignments</router-link>, een website die je maakt voor jezelf of voor een opdrachtgever, of een opdracht die je van de docenten krijgt.
+                </p>
+
+                <h3 id="beoordeling">Beoordeling</h3>
+                <p>
+                    Voor de beoordeling van CodeLab zijn de volgende documenten van belang:
+                    <ul>
+                        <li>Aftekenlijst</li>
+                        <li>Weekrapportages</li>
+                    </ul>
+                </p>
+
+                <h4 id="aftekenlijst">Aftekenlijst</h4>
+                <p>
+                    Als je begint aan een skillkaart, druk je alvast de <a href="static/Aftekenlijst_CodeLab.pdf" target="_blank">aftekenlijst</a> af. Tussendoor kun je om feedback vragen van de docenten (of je op de goede weg bent). Dat kan de docent aangeven op de aftekenlijst. Als je klaar bent en de docent keurt je skillkaart goed, wordt dat onderdaan de lijst afgetekend. De aftekenlijst is het bewijs, die moet je meebrengen naar je PFVG in de toetsweek! <a href="static/Aftekenlijst_CodeLab.pdf" target="_blank">Download de aftekenlijst.</a>
+                </p>
+
+                <h4 id="weekrapportages">Weekrapportages </h4>
+                <p>
+                    Van iedere CodeLab dien je een logboek bij te houden, hierin schrijf je duidelijk waar je mee aan de slag bent gegaan. Een goede manier om iets op te schrijven is bijvoorbeeld:
+                </p>
+                <p>
+                    <blockquote>"gewerkt aan mijn portfoliowebsite: de header zit nu vast aan de bovenkant van de browser en ik heb de kleuren verandert na een mooi pallet te zoeken op coolors.co"</blockquote>
+                </p>
+                <p>
+                    Met een logboekregel zoals hierboven weet jij zelf en ook de docent waar jij je mee bezig hebt gehouden. Een manier van opschrijven waar je niet veel aan hebt is:
+                </p>
+                <p>
+                    <blockquote>"gewerkt aan site"</blockquote>
+                </p>
 
                 <h3 id="leenmateriaal">Leenmateriaal</h3>
-                <h4 id="magazijn">AMO Magazijn</h4>
                 <p>
                     <h5>Apparatuur</h5>
                     <ul>
@@ -64,22 +105,22 @@
                 <p>
                     <h5>Literatuur</h5>
                     <ul>
-                        <li>Anti Patterns <em>[door: William J. Brown, Raphael C. Malveau, Hays W. "Skip" McCormick III & Thomas J. Mowbray]</em></li>
+                        <li>Anti Patterns <em>[door: William J. Brown, Raphael C. Malveau, Hays W. "Skip" McCormick III &amp; Thomas J. Mowbray]</em></li>
                         <li>Basiscursus JavaScript 1.5 <em>[door: Peter Kassenaar]</em></li>
                         <li>Basishandleiding Google in één oogopslag <em>[door: Bert van Aalten]</em></li>
                         <li>Beginning C++ Through Game Programming (incl. CD) <em>[door: Michael Dawson]</em></li>
-                        <li>Game Architecture and Design - A new edition <em>[door: Andrew Rollings & Dave Morris]</em></li>
+                        <li>Game Architecture and Design - A new edition <em>[door: Andrew Rollings &amp; Dave Morris]</em></li>
                         <li>Goochelen met Google <em>[door: Dirk de Grooff]</em></li>
-                        <li>Head First C# <em>[door: Andrew Stellman & Jennifer Greene]</em></li>
-                        <li>Head First Object-Oriented Analysis & Design <em>[door: Brett D. McLaughlin, Gary Pollice & David West]</em></li>
-                        <li>HTML & CSS <em>[door: Jon Duckett]</em></li>
-                        <li>Mathematics for 3D Game Programming & Computer Graphics <em>[door: Eric Lengyel]</em></li>
+                        <li>Head First C# <em>[door: Andrew Stellman &amp; Jennifer Greene]</em></li>
+                        <li>Head First Object-Oriented Analysis &amp; Design <em>[door: Brett D. McLaughlin, Gary Pollice &amp; David West]</em></li>
+                        <li>HTML &amp; CSS <em>[door: Jon Duckett]</em></li>
+                        <li>Mathematics for 3D Game Programming &amp; Computer Graphics <em>[door: Eric Lengyel]</em></li>
                         <li>PHP 5 <em>[door: Ward van der Put]</em></li>
                         <li>Step by step Access 2 NL/Windows <em>[door: Kluwer Bedrijfswetenschappen]</em></li>
                         <li>Step by step Microsoft Visual C# 2012 <em>[door: John Sharp]</em></li>
                         <li>Verder met internet <em>[door:	Bob van Duuren]</em></li>
                         <li>Werken met MSDOS <em>[door: Van Wolverton]</em></li>
-                        <li>Windows XP Grand Cru - SP2 editie <em>[door: John Levine & Margaret Levine Young]</em></li>
+                        <li>Windows XP Grand Cru - SP2 editie <em>[door: John Levine &amp; Margaret Levine Young]</em></li>
                     </ul>
                 </p>
 
@@ -96,52 +137,25 @@
                         <li>De docent noteert dat jij het product hebt ingeleverd en geeft je <strong>schoolpas</strong> terug.</li>
                     </ol>
                 </p>
-
-                <h3 id="beoordeling"> Beoordeling </h3>
-                <p>
-                    Voor de beoordeling van CodeLab zijn de volgende documenten van belang:
-                    <ul>
-                        <li>Weekrapportages</li>
-                        <li>Ingevulde Skillkaarten</li>
-                    </ul>
-                </p>
-
-                <h4 id="weekrapportages"> Weekrapportages </h4>
-                <p>
-                    Van iedere CodeLab dien je een logboek bij te houden, hierin schrijf je duidelijk waar je mee aan de slag bent gegaan. Een goede manier om iets op te schrijven is bijvoorbeeld:
-                </p>
-                <p>
-                    <blockquote>"gewerkt aan mijn portfoliowebsite: de header zit nu vast aan de bovenkant van de browser en ik heb de kleuren verandert na een mooi pallet te zoeken op coolors.co"</blockquote>
-                </p>
-                <p>
-                    Met een logboekregel zoals hierboven weet jij zelf en ook de docent waar jij je mee bezig hebt gehouden. Een manier van opschrijven waar je niet veel aan hebt is:
-                </p>
-                <p>
-                    <blockquote>"gewerkt aan site"</blockquote>
-                </p>
-
-                <h4 id="ingevuldeSkillkaarten"> Ingevulde Skillkaarten </h4>
-                <p>
-                    Skillkaarten zijn (sets met) opdrachten die jou in staat stellen om te bewijzen dat je aan de slag met gegaan met de verschillende werkprocessen van jouw opleiding in de praktijk. Iedere skillkaart staat in het teken van een specifiek werkproces.
-                </p>
             </div>
 
             <div class="column is-one-third">
                 <aside class="toc">
                     <ul class="toc-list">
+                        <li> <a href="#samenvatting">Samenvatting</a> </li>
                         <li> <a href="#inleiding">Wat is het CodeLab?</a> </li>
                         <li> <a href="#opdrachten">Waar mag ik aan werken tijdens CodeLab?</a> </li>
                         <li> <a href="#skillkaarten">Hoe kies ik en maak ik skillkaarten?</a> </li>
+                        <li> <a href="#beoordeling">Beoordeling</a>
+                            <ul>
+                              <li> <a href="#aftekenlijst">Aftekenlijst</a> </li>
+                              <li > <a href="#weekrapportages">Weekrapportages</a> </li>
+                            </ul>
+                        </li>
                         <li> <a href="#leenmateriaal">Leenmateriaal</a>
                             <ul>
                               <li> <a href="#magazijn">AMO Magazijn</a> </li>
                               <li> <a href="#procedure">Procedure</a> </li>
-                            </ul>
-                        </li>
-                        <li> <a href="#beoordeling">Beoordeling</a>
-                            <ul>
-                              <li> <a href="#weekrapportages">Weekrapportages</a> </li>
-                              <li > <a href="#ingevuldeSkillkaarten">Ingevulde Skillkaarten</a> </li>
                             </ul>
                         </li>
                     </ul>
