@@ -7,7 +7,7 @@
             <div class="box is-gray">
               <div class="head">
                 <div class="name">Kerntaak 1</div>
-                <h4>Voorbereiding</h4>
+                <h4>B1-K1</h4>
 
                 <p class="sub-title">Levert een bijdrage aan het ontwikkeltraject.</p>
 
@@ -15,7 +15,7 @@
               </div>
               <div class="items">
                 <div :key="opdracht.wp" class="box"  id="b1c1" v-if="opdracht.kt == 1" v-for="opdracht in opdrachten">
-                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+                  <p>{{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
                   <p class="meta">
                     <button @click="setActive(opdracht)" class="button is-info"> <i class="fa fa-eye"></i> Open Skillkaart  </button>
                   </p>
@@ -32,13 +32,13 @@
           <div class="box is-gray">
             <div class="head">
               <div class="name">Kerntaak 2</div>
-              <h4>Realisatie</h4>
-              <p class="sub-title">Realiseert en test (onderdelen van) een project.</p>
+              <h4>B1-K2</h4>
+              <p class="sub-title">Realiseert en test (onderdelen van) een product.</p>
 
             </div>
             <div class="items">
               <div class="box" id="b2c1" v-if="opdracht.kt == 2" v-for="opdracht, key in opdrachten">
-                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+                  <p>{{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
 
                   <p class="meta">
                     <button  @click="setActive(opdracht)" class="button is-info"><i class="fa fa-eye"></i> Open Skillkaart  </button>
@@ -54,13 +54,13 @@
           <div class="box is-gray">
             <div class="head">
               <div class="name">Kerntaak 3</div>
-              <h4>Oplevering</h4>
+              <h4>B1-K3</h4>
               <p class="sub-title">Levert een product op.</p>
 
             </div>
             <div class="items">
               <div class="box" id="b3c1"  v-if="opdracht.kt == 3" v-for="opdracht in opdrachten">
-                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+                  <p>{{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
 
                   <p class="meta">
                     <button @click="setActive(opdracht)"  class="button is-info"><i class="fa fa-eye"></i> Open Skillkaart  </button>
@@ -75,13 +75,13 @@
         <div class="column is-3 board" id="b4">
           <div class="box is-gray">
             <div class="head">
-              <div class="name">Profieldeel 1</div>
-              <h4>Beheer en Optimalisatie</h4>
+              <div class="name">Profieldeel</div>
+              <h4>P1-K1</h4>
               <p class="sub-title">Onderhoudt en beheert de applicatie.</p>
             </div>
             <div class="items">
               <div class="box" id="b4c1" v-if="opdracht.kt == 4" v-for="opdracht in opdrachten">
-                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+                  <p>{{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
 
                   <p class="meta">
                     <button @click="setActive(opdracht)"  class="button is-info"><i class="fa fa-eye"></i> Open Skillkaart  </button>
@@ -147,7 +147,7 @@ export default {
       opdrachten: [
         {
           kt: 1,
-          wp: '1.1',
+          wp: 'B1-K1-W1',
           naam: 'Stelt de opdracht vast',
           keyword: 'Voorbereiding',
           beschrijving: `Voor deze opdracht ga je komen tot een opdracht om binnen het CodeLab uit te voeren. Om tot een duidelijke afbakening van de opdracht te komen ga je overleggen met een begeleider. Je maakt daarbij notities en/of schetsen, stelt inhoudelijke vragen ter verduidelijking van de opdracht en laat zien dat je meedenkt aan de opdracht door tijdens het gesprek aanvullingen te geven of ideeën op te gooien. Ook ga je zelfstandig op informatie-onderzoek uit naar de te maken opdracht
@@ -180,7 +180,7 @@ export default {
         },
         {
           kt: 1,
-          wp: '1.2',
+          wp: 'B1-K1-W2',
           naam: 'Levert een bijdrage aan het projectplan',
           beschrijving: `Je gaat op basis van jouw opdracht de werkzaamheden inventariseren
                         die hierbij horen. Je beschrijft de activiteiten die bij deze opdracht komen kijken
@@ -209,7 +209,7 @@ export default {
         },
         {
           kt: 1,
-          wp: '1.3',
+          wp: 'B1-K1-W3',
           naam: 'Levert een bijdrage aan het ontwerp',
           beschrijving: `In deze opdracht laat je zien dat je een bijdrage kan leveren aan de totstandkoming
                         van het design van een (web)applicatie. Denk hierbij aan het maken van layout
@@ -269,7 +269,7 @@ export default {
         },
         {
           kt: 1,
-          wp: '1.4',
+          wp: 'B1-K1-W4',
           naam: 'Bereidt de realisatie voor',
           beschrijving: `Je gaat op basis van één van jouw CodeLab projecten na wat je als ontwikkelomgeving
                         nodig denkt te hebben en maak hiervan documentatie. Is het bijvoorbeeld
@@ -314,7 +314,7 @@ export default {
         },
         {
           kt: 2,
-          wp: '2.1',
+          wp: 'B1-K2-W1',
           naam: 'Realiseert (onderdelen van) een product',
           beschrijving: `
             Je gaat een (onderdeel van een) applicatie ontwikkelen, gebruikmakend van gekregen of onderzochte informatie, zoals
@@ -364,7 +364,7 @@ export default {
         },
         {
           kt: 2,
-          wp: '2.2',
+          wp: 'B1-K2-W2',
           naam: 'Test het ontwikkelde product',
           beschrijving: `
             Je bent gedurende het ontwikkelproces continu bezig met het testen van (onderdelen van) je applicatie. Je maakt gebruik van
@@ -414,7 +414,7 @@ export default {
         },
         {
           kt: 3,
-          wp: '3.1',
+          wp: 'B1-K3-W1',
           naam: 'Optimaliseert het product',
           beschrijving: `
             <h4> maak een keuze </h4>
@@ -454,7 +454,7 @@ export default {
         },
         {
           kt: 3,
-          wp: '3.2',
+          wp: 'B1-K3-W2',
           naam: 'Levert het product op',
           beschrijving: `
             Je levert nadat de laatste testactiviteiten zijn afgerond je product af aan de klant of in dit geval de CodeLab begeleider. Je laat door middel van een presentatie
@@ -478,7 +478,7 @@ export default {
         },
         {
           kt: 3,
-          wp: '3.3',
+          wp: 'B1-K3-W3',
           naam: 'Evalueert het opgeleverde product',
           beschrijving: `
             Je gaat de oplevering aan de hand van gekregen feedback bespreken met je CodeLab begeleider.
@@ -502,7 +502,7 @@ export default {
         },
         {
           kt: 4,
-          wp: 'P 1.1',
+          wp: 'P1-K1-W1',
           naam: 'Onderhoudt een applicatie',
           beschrijving: `Tijdens je opleiding komen er vast meldingen van jouw omgeving die support nodig hebben in het
           gebruik van hun applicatie. Je handelt eventuele incident meldingen professioneel af volgens de richtlijnen van jouw stagebedrijf.
@@ -525,7 +525,7 @@ Daarnaast doe je uitgebreid verslag van een ticket die je zelf hebt afgehandeld.
         },
         {
           kt: 4,
-          wp: 'P 1.2',
+          wp: 'P1-K1-W2',
           naam: 'Beheert gegevens',
           beschrijving: `Gedurende je loopbaan bouw je (mee aan) verschillende applicaties. Van alles wat je hebt gemaakt en beheert is het
           belangrijk dat de daarvoor benodigde data (denk aan inloggegevens, databasegegevens, specificaties, git repository e.d.) op een gestructureerde wijze
