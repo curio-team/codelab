@@ -6,7 +6,7 @@
                 <h1>Welkom bij het CodeLab!</h1>
 
                 <p>
-                    Er is een moment op jouw rooster ingepland waar jij, samen met de docenten, kan gaan werken aan hobbyprojecten. Dit moment is het CodeLab, waar je de mogelijkheid krijgt je te verdiepen in onderwerpen die <strong>JIJ</strong> interessant vindt!
+                    Er is een moment op jouw rooster ingepland waar jij, samen met de docenten, kan gaan werken aan hobbyprojecten. Dit moment is het CodeLab, waar je de mogelijkheid krijgt je te verdiepen in onderwerpen die <em>JIJ</em> interessant vindt!
                 </p>
 
                 <h3 id="inleiding">Wat is het CodeLab?</h3>
@@ -32,7 +32,7 @@
                     Daarnaast ben je ook vrij jezelf te verdiepen in een of meerdere van de duizenden programmeertalen, frameworks of tools die beschikbaar zijn om het programmeurs makkelijker te maken. Denk aan Javascript, ASP.NET, Java, Git, SVN, Docker, Composer of Node.js...
                 </p>
                 <p>
-                    Misschien verdiep je je wel in rouwe hardware om mee te programmeren, zoals Arduino of met niets meer dan een breadboard en een verzameling aan sensoren, lampjes en kabeltjes.
+                    Misschien verdiep je je wel in rauwe hardware om mee te programmeren, zoals Arduino of met niets meer dan een breadboard en een verzameling aan sensoren, lampjes en kabeltjes.
                 </p>
                 <p>
                     De keuze is aan jou!
@@ -94,22 +94,22 @@
                 <p>
                     <h5>Literatuur</h5>
                     <ul>
-                        <li>Anti Patterns <em>[door: William J. Brown, Raphael C. Malveau, Hays W. "Skip" McCormick III & Thomas J. Mowbray]</em></li>
+                        <li>Anti Patterns <em>[door: William J. Brown, Raphael C. Malveau, Hays W. "Skip" McCormick III &amp; Thomas J. Mowbray]</em></li>
                         <li>Basiscursus JavaScript 1.5 <em>[door: Peter Kassenaar]</em></li>
                         <li>Basishandleiding Google in één oogopslag <em>[door: Bert van Aalten]</em></li>
                         <li>Beginning C++ Through Game Programming (incl. CD) <em>[door: Michael Dawson]</em></li>
-                        <li>Game Architecture and Design - A new edition <em>[door: Andrew Rollings & Dave Morris]</em></li>
+                        <li>Game Architecture and Design - A new edition <em>[door: Andrew Rollings &amp; Dave Morris]</em></li>
                         <li>Goochelen met Google <em>[door: Dirk de Grooff]</em></li>
-                        <li>Head First C# <em>[door: Andrew Stellman & Jennifer Greene]</em></li>
-                        <li>Head First Object-Oriented Analysis & Design <em>[door: Brett D. McLaughlin, Gary Pollice & David West]</em></li>
-                        <li>HTML & CSS <em>[door: Jon Duckett]</em></li>
-                        <li>Mathematics for 3D Game Programming & Computer Graphics <em>[door: Eric Lengyel]</em></li>
+                        <li>Head First C# <em>[door: Andrew Stellman &amp; Jennifer Greene]</em></li>
+                        <li>Head First Object-Oriented Analysis &amp; Design <em>[door: Brett D. McLaughlin, Gary Pollice &amp; David West]</em></li>
+                        <li>HTML &amp; CSS <em>[door: Jon Duckett]</em></li>
+                        <li>Mathematics for 3D Game Programming &amp; Computer Graphics <em>[door: Eric Lengyel]</em></li>
                         <li>PHP 5 <em>[door: Ward van der Put]</em></li>
                         <li>Step by step Access 2 NL/Windows <em>[door: Kluwer Bedrijfswetenschappen]</em></li>
                         <li>Step by step Microsoft Visual C# 2012 <em>[door: John Sharp]</em></li>
                         <li>Verder met internet <em>[door:	Bob van Duuren]</em></li>
                         <li>Werken met MSDOS <em>[door: Van Wolverton]</em></li>
-                        <li>Windows XP Grand Cru - SP2 editie <em>[door: John Levine & Margaret Levine Young]</em></li>
+                        <li>Windows XP Grand Cru - SP2 editie <em>[door: John Levine &amp; Margaret Levine Young]</em></li>
                     </ul>
                 </p>
 
