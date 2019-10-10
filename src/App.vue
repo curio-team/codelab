@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
 
 
         <div class="navbar-menu">
           <div class="navbar-start">
             <router-link :to="{name: 'Home'}" class="navbar-item" href="#">
-              <img src="./assets/rc-fc.png">
+              <img src="./assets/curio-logo.png">
             </router-link>
             <router-link :to="{name: 'Home'}" class="navbar-item"> Algemene Informatie </router-link>
             <router-link :to="{name: 'Skillkaarten'}" class="navbar-item"> Skillkaarten </router-link>
@@ -40,10 +40,19 @@ export default {
 
   nav.navbar {
     margin-bottom: 20px;
+    background: #004FFF;
+    height: 64px;
   }
 
   .navbar-item {
     font-weight: bold;
+    color: #FFFFFF !important;
+  }
+
+  .navbar-item:hover {
+    font-weight: bold;
+    color: #FFCC00 !important;
+    background: none;
   }
 
   .container {
@@ -51,7 +60,7 @@ export default {
   }
 
   .router-link-exact-active {
-    color: #00A5F7 !important;
+    color: #FFFFFF !important;
   }
 
 .fade-enter-active, .fade-leave-active {

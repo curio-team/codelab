@@ -141,6 +141,7 @@
 
             <div class="column is-one-third">
                 <aside class="toc">
+                    <h2>Inhoudsopgave</h2>
                     <ul class="toc-list">
                         <li> <a href="#samenvatting">Samenvatting</a> </li>
                         <li> <a href="#inleiding">Wat is het CodeLab?</a> </li>
@@ -176,23 +177,23 @@ export default {
 
 <style>
     a {
-        color: #00A5F7;
+        color: #004FFF;
     }
 
     h1, h2 {
         border-bottom: 1px solid #dbdbdb;
         padding-bottom: 15px;
-        color: #00A5F7 !important;
+        color: #004FFF !important;
     }
 
     h3 {
         border-left: 5px solid black;
         padding-left: 5px;
-        color: #00A5F7 !important;
+        color: #004FFF !important;
     }
 
     h4 {
-        color: #00A5F7 !important;
+        color: #004FFF !important;
     }
 
     .toc {
